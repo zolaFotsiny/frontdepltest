@@ -10,14 +10,15 @@
             </li>
             <li nz-submenu nzTitle="Employee" nzIcon="team">
                 <ul>
-                    <li nz-menu-item>Ajout</li>
+                    <li nz-menu-item [routerLink]="['/manager/employee']">Ajout</li>
                     <li nz-menu-item>Liste</li>
                 </ul>
             </li>
             <li nz-menu-item [routerLink]="['/manager/service']">
                 <span nz-icon nzType="file"></span>
-                <span>Serice</span>
+                <span>Service</span>
             </li>
+
 
         </ul>
     </nz-sider>
